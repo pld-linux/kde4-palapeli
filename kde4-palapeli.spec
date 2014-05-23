@@ -6,7 +6,7 @@
 Summary:	Palapeli
 Name:		kde4-%{orgname}
 Version:	4.13.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
@@ -15,6 +15,7 @@ BuildRequires:	automoc4 >= 0.9.88
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdelibs-devel >= %{version}
 BuildRequires:	kde4-libkdegames-devel >= %{version}
+BuildRequires:	qhull-c++-devel >= 2012.1
 BuildRequires:	qt4-build >= %{qtver}
 BuildRequires:	qt4-qmake >= %{qtver}
 BuildRequires:	rpmbuild(macros) >= 1.600
