@@ -5,12 +5,12 @@
 
 Summary:	Palapeli
 Name:		kde4-%{orgname}
-Version:	4.13.1
-Release:	2
+Version:	4.13.2
+Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	6278509f2c172691d1210174e96d1b3e
+# Source0-md5:	a908e8009aa34f3484b388ac95a80aab
 BuildRequires:	automoc4 >= 0.9.88
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdelibs-devel >= %{version}
